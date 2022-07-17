@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.stream.Collectors;
 
-// FIXME: INTERFACE SEGREGATION
-// TODO:  INTERFACE SEGREGATION
 @Component
 public class EmployeeMapper implements Mapper<Employee, EmployeeDto> {
     @Override
